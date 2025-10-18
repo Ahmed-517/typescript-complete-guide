@@ -1,0 +1,29 @@
+# Git Commands for Initial Setup
+# Copy and paste these commands one by one
+
+# 1. Initialize git repository
+git init
+
+# 2. Add all files to staging
+git add .
+
+# 3. Check what will be committed (optional but recommended)
+git status
+
+# 4. Create initial commit
+git commit -m "Initial commit: Comprehensive TypeScript guide with 25+ topics and 1000+ lines of examples"
+
+# 5. Rename branch to main
+git branch -M main
+
+# 6. Add remote (REPLACE YOUR_USERNAME with your actual GitHub username)
+git remote add origin https://github.com/YOUR_USERNAME/typescript-complete-guide.git
+
+# 7. Push to GitHub
+git push -u origin main
+
+# Alternative Initial Commit Messages (choose one):
+# git commit -m "🚀 Initial commit: Complete TypeScript learning guide from basics to advanced"
+# git commit -m "Initial commit: TypeScript reference guide with practical examples covering types, generics, patterns, and more"
+# git commit -m "Add comprehensive TypeScript guide with 25 sections covering all essential concepts"
+

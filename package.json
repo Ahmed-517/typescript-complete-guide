@@ -1,0 +1,44 @@
+{
+  "name": "typescript-complete-guide",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript guide covering everything from basics to advanced patterns with practical examples",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "typescript",
+    "tutorial",
+    "guide",
+    "examples",
+    "learning",
+    "reference",
+    "types",
+    "generics",
+    "advanced-typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/typescript-complete-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/typescript-complete-guide/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/typescript-complete-guide#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "commonjs"
+}
