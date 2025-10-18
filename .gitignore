@@ -42,3 +42,5 @@ coverage/
 *.temp
 .cache/
 
+# Git commands
+.git-commands.txt
